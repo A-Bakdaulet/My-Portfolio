@@ -1,0 +1,331 @@
+body {
+            font-family: Georgia, serif;
+            margin: 0;
+            padding: 0;
+            background-color: #D8CCBE;
+        }
+        .container {
+            max-width: 1600px;   
+            margin: 0 auto;      
+        }
+        .back {
+            background: white;
+            padding: 1.7rem;
+            display: flex;              
+            align-items: center;
+            justify-content: center; 
+            position: relative;
+        }
+        .head1 {
+            color: gray;
+            font-size: 23px;
+            left: 3.2rem;
+            position: absolute;
+        }
+        .buttons {
+            display: flex;
+            gap: 1.5cm;
+            font-size: 20px;
+        }
+        .buttons a {
+            text-decoration: none;
+            color: black;
+            cursor: pointer;
+            transition: transform 0.2s ease;
+            text-decoration: none;
+        }
+        .buttons a:hover{
+            transform: scale(1.1);
+            text-decoration: underline solid gray;
+            text-decoration-thickness: 2px;
+            text-underline-offset: 4px;
+        }
+        .name {
+            font-family: 'Roboto', sans-serif;
+            margin: 7rem 9rem;
+        }
+        .name-title{
+            font-size: 40px;
+            font-weight: 300;
+            line-height: 3.5rem;
+        }
+        .name-title a{
+            font-family: Georgia, serif;
+            font-size: 45px;
+            font-weight: 400;
+        }
+        .definition{
+            font-size: 18px;
+            color: #60574C;
+            font-family: 'PT sans', sans-serif;
+            transform: translateY(5rem);
+        }
+        .definition b{
+            font-family: 'Lato', sans-serif;
+            font-size: 23px;
+            font-weight: 600;
+            color: #8E7F6E;
+        }
+        .photo {
+            height: 22rem;
+            width: 22rem;
+            border-radius: 50%;
+            object-fit: cover;
+            display: block;       
+            margin-left: auto;     
+            margin-right: 10rem;
+            margin-top: -10cm;
+        }
+        .blue-space{
+            background: #292E33; 
+            padding-top: 2cm;
+            padding-left: 3.8cm;
+            min-height: 8cm;
+            margin-top: 2cm;
+        }
+        .blue-space a{
+            color: #8E7F6E;
+            font-size: 30px;
+            font-family: 'Gantari';
+            display: block;
+            margin-bottom: 2.5rem;
+        }
+        .strengths {
+            display: flex;
+            gap: 3cm; 
+        }
+
+        .strength {
+            max-width: 310px; 
+        }
+
+        .strength b {
+            color: white;
+            font-family: 'Granti';
+            font-size: 38px;
+            display: block;
+            margin-bottom: 1rem;
+        }
+
+        .strength p {
+            color: rgb(208, 201, 201);
+            font-family: 'PT sans', sans-serif;
+            font-size: 20px;
+        }
+        .about-me{
+            background: local;
+            padding-top: 1.2cm;
+            padding-left: 3.8cm;
+            min-height: 8cm;
+            
+        }
+        .about-me a{
+            color: #60574C;
+            font-size: 24px;
+            display: block;
+            margin-bottom: 0.8cm;
+        }
+        .about-me-title b{
+            font-size: 30px;
+            display: block;
+            margin-bottom: 0.8cm;
+        }
+        .about-me-title p{
+            color: #8E7F6E;
+            font-size: 22px;
+            max-width: 92%;
+            font-weight: 400;
+        }
+        .all-square{
+            padding: 2rem 0;
+            display: flex;
+            gap: 2.5rem;
+
+        }
+        .square{
+            background: white;
+            width: 23.1%;
+            padding: 1rem 2rem;
+            border-radius: 20px;
+        }
+        .icon1{
+            height: 70px;
+            width: 70px;
+            padding: 1.5rem 2rem;
+        }
+        .square b{
+            color: #8E7F6E;
+            padding: 0 2rem;
+            display: block;
+            padding-bottom: 1rem;
+        }
+        .square a{
+            padding: 0 2rem;
+        }
+        .blue-space2{
+            background: #292E33; 
+            padding-top: 2cm;
+            padding-left: 3.8cm;
+            min-height: 36cm;
+            margin-top: 2cm;
+        }
+        .education a{
+            color: #8E7F6E;
+            font-size: 30px;
+            font-family: 'Gantari';
+            display: block;
+            margin-bottom: 2.5rem;
+        }
+        .edu{
+            max-width: 1100px;
+        }
+        .edu b{
+            color: white;
+            font-family: 'Granti';
+            font-size: 38px;
+            display: block;
+            margin-bottom: 1rem;
+        }
+        .edu p{
+            color: rgb(208, 201, 201);
+            font-family: 'PT sans', sans-serif;
+            font-size: 20px;
+            padding-bottom: 4rem;
+            padding-top: 1rem;
+        }
+        .hobbies b{
+            color: white;
+            font-family: 'Granti';
+            font-size: 38px;
+        }
+        .all-square2{
+            padding: 4rem 0;
+            display: flex;
+            gap: 6rem;
+            position: absolute;
+        }
+        .square2-1 {
+            position: relative; 
+            background: white;
+            width: 8cm;
+            border-radius: 20px;
+            padding: 8rem 0;
+            background-image: url('https://oceanpanel.org/wp-content/uploads/2020/06/summer-time-under-the-sea-ocean-water-2021-08-28-14-51-43-utc-scaled.jpg');
+            background-size: cover;
+            background-position: center;
+            overflow: hidden; 
+        }
+
+        .shadow {
+            position: absolute;
+            bottom: 0; 
+            width: 100%;
+            height: 30%; 
+            background: #292e33;
+            background: rgba(41, 46, 51, 0.7); 
+        }
+        .shadow a{
+            color: white;
+            font-family: 'Gantari';
+            display: flex;
+            justify-content: center;
+            padding: 2rem 0;
+        }
+        .square2-2{
+            position: relative; 
+            background: white;
+            width: 8cm;
+            border-radius: 20px;
+            padding: 4cm 0;
+            background-image: url('https://upload.wikimedia.org/wikipedia/en/d/db/The_Movies_Coverart.jpg');
+            background-size: cover;
+            background-position: center;
+            overflow: hidden; 
+        }
+        .square2-3{
+            position: relative; 
+            background: white;
+            width: 8cm;
+            border-radius: 20px;
+            padding: 3rem 0;
+            background-image: url('https://storage.googleapis.com/pod_public/1300/169545.jpg');
+            background-size: cover;
+            background-position: center;
+            overflow: hidden; 
+        }
+        .goal{
+            padding-top: 5cm;
+            padding-left: 3.8cm;
+            min-height: 8cm;
+        }
+        .goal a{
+            color: #60574C;
+            font-size: 30px;
+            display: block;
+            margin-bottom: 0.8cm;
+
+        }
+        .goal b{
+            color: black;
+            font-size: 37px;
+            display: block;
+            margin-bottom: 1cm;
+        }
+        .goal p{
+            color: #8E7F6E;
+            font-size: 20px;
+            max-width: 92%;
+            font-weight: 400;
+            padding-bottom: 5rem;
+        }
+        footer {
+            background: #292E33;
+            padding: 3rem 6rem;
+            border-top: 1px solid var(--border-color);
+            font-size: 15px;
+            font-family: 'PT sans', sans-serif;
+        }
+
+        .footer-content {
+            display: flex;
+            justify-content: space-between;
+            flex-wrap: wrap;
+            gap: 2rem;
+            color: #fff;
+        }
+
+        .footer-section h3 {
+            font-size: 1.5rem;
+            margin-bottom: 1.5rem;
+            color: var(--primary-color);
+        }
+        .footer-section p, .footer-section a {
+            color: var(--text-gray);
+            margin-bottom: 0.8rem;
+            display: block;
+            text-decoration: none;
+            transition: transform 0.3s ease;
+        }
+
+        .footer-section a:hover {
+            transform: scale(1.1);
+        }
+
+        .social-links {
+            display: flex;
+            gap: 1rem;
+            margin-top: 1rem;
+        }
+
+        .social-links a {
+            color: var(--text-gray);
+            font-size: 1.5rem;
+            transition: transform 0.2s ease;
+        }
+        .social-links a:hover{
+            transform: scale(1.2);
+            
+        }
+        .copyright{
+            color: white;
+        }
